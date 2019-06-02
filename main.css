@@ -1,4 +1,11 @@
 .box { height: 100px;
 width: 100px;
 background-color: #888888;
+
+}
+
+.box:hover {
+    transform:scale(2);
+    transition-duration: 1s;
+    background-color: #888800;
 }
